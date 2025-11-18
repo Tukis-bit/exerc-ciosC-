@@ -1,0 +1,46 @@
+
+namespace exerc_ciosC_;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("===================");
+        Console.WriteLine("==PROGRAMA DO IMC==");
+        Console.WriteLine("===================");
+        Console.WriteLine();
+
+        Console.Write("Me informe o livro que você vai ler: ");
+        string livro = Console.ReadLine();
+        Console.WriteLine();
+
+        Console.Write("Me informe a quantidade de páginas que tem o livro: ");
+        int paginas = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine();
+
+        Console.Write("Agora me informe o tempo em segundos que você demora para ler uma página: ");
+        int segundos = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine();
+
+        double horas = CalcularHoras(paginas, segundos);
+
+        Console.WriteLine($"Você lerá {livro} em {horas:F2} horas");
+
+
+
+    }
+
+    public static double CalcularHoras(int paginas, int segundos)
+    {
+        double minuto = (double)segundos / 60;
+
+        double horas = (minuto * paginas) / 60;
+
+       
+
+        return horas;
+    }
+
+
+
+}

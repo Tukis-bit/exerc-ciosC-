@@ -1,0 +1,56 @@
+namespace exerc_ciosC_;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+       Console.WriteLine("=====================");
+       Console.WriteLine("==PROGRAMA DA MÉDIA==");
+       Console.WriteLine("=====================");
+       Console.WriteLine();
+
+       Console.Write("Me informe a sua primeira nota: ");
+        double n1 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine();
+
+        Console.Write("Me informe a sua segunda nota: ");
+        double n2 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine();
+
+        Console.Write("Me informe a sua terceira nota: ");
+        double n3 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine();
+
+        double media = CalcularMedia(n1, n2, n3);
+        bool situacao = VerificarSituacao(media);
+
+        Console.WriteLine($"A sua média é: {media}");
+        Console.WriteLine($"Você passou de ano? {situacao}");
+
+    }
+
+   public static double CalcularMedia(double n1, double n2, double n3)
+    {
+        double media = (n1 + n2 + n3) / 3;
+
+        return media;
+    }
+
+    public static bool VerificarSituacao(double media)
+    {
+        if(media >= 6)
+        {
+            return true;
+        }
+
+        else
+        {
+            return false;
+        }
+
+    }
+
+
+
+    
+}

@@ -1,0 +1,68 @@
+using System.Runtime.InteropServices.Marshalling;
+
+namespace exerc_ciosC_;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+       Console.WriteLine("===================================");
+       Console.WriteLine("==PROGRAMA DA AREA DOS RETANGULOS==");
+       Console.WriteLine("===================================");
+       Console.WriteLine();
+
+        Console.Write("Me informe a base do primeiro retangulo: ");
+        double b1 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine();
+
+        Console.Write("Me informe a Altura do primeiro Retangulo: ");
+        double a1 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine();
+
+        Console.Write("Me informe a base do segundo retangulo: ");
+        double b2 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine();
+
+        Console.Write("Me informe a altura do segundo retangulo:  ");
+        double a2 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine();
+
+        double area1 = CalcularArea(a1, b1);
+        double area2 = CalcularArea(a2, b2);
+        bool iguais = verificarSeIguais(area1, area2);
+
+        Console.WriteLine($"A area do primeiro retângulo é de: {area1}");
+        Console.WriteLine($"A area do segundo retângulo é de: {area2}");
+        Console.WriteLine();
+
+        Console.WriteLine($"Eles são iguais? {iguais} ");
+
+
+      
+
+    }
+
+    public static double CalcularArea(double a, double b)
+    {
+        double area = a * b;
+        return area;
+    } 
+
+    public static bool verificarSeIguais(double area1, double area2)
+    {
+        if(area1 == area2)
+        {
+            return true;
+        }
+
+        else
+        {
+            return false;
+        }
+    }
+
+
+
+
+    
+}

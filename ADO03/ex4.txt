@@ -1,0 +1,38 @@
+using System.Runtime.InteropServices.Marshalling;
+
+namespace exerc_ciosC_;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("=================================");
+        Console.WriteLine("==PROGRAMA DA VERIFICÇÃO DE PAR==");
+        Console.WriteLine("=================================");
+        Console.WriteLine();
+
+        Console.Write("Me mande um número para eu verificar se ele é par: ");
+        int num = Convert.ToInt32(Console.ReadLine());
+
+        bool situacao = VerificarNumero(num);
+
+        Console.WriteLine();
+        Console.WriteLine($"O número {num} é par? {situacao}");
+
+    }
+
+    public static bool VerificarNumero(int num)
+    {
+        if ((num % 2) == 0)
+        {
+            return true;
+        }
+
+        else
+        {
+            return false;
+        }
+    }
+
+
+}

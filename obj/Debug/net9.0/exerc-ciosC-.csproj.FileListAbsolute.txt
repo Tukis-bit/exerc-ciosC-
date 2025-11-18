@@ -1,0 +1,14 @@
+C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\bin\Debug\net9.0\exerc-ciosC-.exe
+C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\bin\Debug\net9.0\exerc-ciosC-.deps.json
+C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\bin\Debug\net9.0\exerc-ciosC-.runtimeconfig.json
+C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\bin\Debug\net9.0\exerc-ciosC-.dll
+C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\bin\Debug\net9.0\exerc-ciosC-.pdb
+C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\obj\Debug\net9.0\exerc-ciosC-.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\obj\Debug\net9.0\exerc-ciosC-.AssemblyInfoInputs.cache
+C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\obj\Debug\net9.0\exerc-ciosC-.AssemblyInfo.cs
+C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\obj\Debug\net9.0\exerc-ciosC-.csproj.CoreCompileInputs.cache
+C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\obj\Debug\net9.0\exerc-ciosC-.dll
+C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\obj\Debug\net9.0\refint\exerc-ciosC-.dll
+C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\obj\Debug\net9.0\exerc-ciosC-.pdb
+C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\obj\Debug\net9.0\exerc-ciosC-.genruntimeconfig.cache
+C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\obj\Debug\net9.0\ref\exerc-ciosC-.dll

@@ -1,0 +1,41 @@
+
+namespace exerc_ciosC_;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("=============================");
+        Console.WriteLine("==PROGRAMA DO ABASTECIMENTO==");
+        Console.WriteLine("=============================");
+        Console.WriteLine();
+
+        Console.Write("Me informe a quantidade que o tanque consegue receber: ");
+        double quantidade = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine();
+
+        Console.Write("Me informe a quqantidade que o carro tem de combustível: ");
+        double combustivel = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine();
+
+        bool situacao = VerificarCombustivel(quantidade, combustivel);
+
+        Console.WriteLine($"Carro precisa ser abastecido? {situacao}");
+
+    }
+
+    public static bool VerificarCombustivel(double tanque, double quantTem)
+    {
+        if ((quantTem / tanque) <= 0.25)
+        {
+            return true;
+        }
+
+        else
+        {
+            return false;
+        }
+    }
+
+
+}

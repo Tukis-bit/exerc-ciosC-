@@ -1,0 +1,35 @@
+namespace exerc_ciosC_;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+       Console.WriteLine("====================================");
+       Console.WriteLine("==PROGRAMA DA VERIFICAÇÃO DE FEBRE==");
+       Console.WriteLine("====================================");
+
+        Console.Write("Me informe a sua temperatura: ");
+        double temperatura = Convert.ToDouble(Console.ReadLine());
+
+        bool comFebre = VerificarTemperatura(temperatura);
+
+        Console.WriteLine($"Você está com febre? {comFebre}");
+
+    }
+
+    public static bool VerificarTemperatura(double temperatura)
+    {
+        if(temperatura >= 37.3)
+        {
+            return true;
+        }
+
+        else
+        {
+            return false;
+        }
+        
+
+    }
+    
+}

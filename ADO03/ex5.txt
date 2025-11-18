@@ -1,0 +1,37 @@
+using System.Runtime.InteropServices.Marshalling;
+
+namespace exerc_ciosC_;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("===================================================");
+        Console.WriteLine("==PROGRAMA DA VERIFICÇÃO DO INTEGRANTE DE FRIENDS==");
+        Console.WriteLine("===================================================");
+        Console.WriteLine();
+
+        Console.Write("Qual é o personagem de friends que trabalha com TI?");
+        string personagem = Console.ReadLine();
+
+        bool situacao = VerificarPersonagem(personagem);
+
+        Console.WriteLine();
+        Console.WriteLine($"Resposta correta? {situacao}");
+   
+    }
+
+    public static bool VerificarPersonagem(string personagem)
+    {
+        if(personagem == "Chandler")
+        {
+            return true;
+        }
+
+        else
+        {
+            return false;
+        }
+    }
+
+}

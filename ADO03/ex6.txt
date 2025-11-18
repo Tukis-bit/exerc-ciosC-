@@ -1,0 +1,39 @@
+using System.Runtime.InteropServices.Marshalling;
+using System.Security;
+
+namespace exerc_ciosC_;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("========================");
+        Console.WriteLine("==PROGRAMA DO SEMÁFORO==");
+        Console.WriteLine("========================");
+        Console.WriteLine();
+
+        Console.Write("Me diga a cor do semáforo para eu verificar se você pode atravessar na faixa: ");
+        string cor = Console.ReadLine();
+        Console.WriteLine();
+
+        bool situacao = VerificarCor(cor);
+
+        Console.WriteLine($"Você pode atravessar? {situacao}");
+
+    }
+
+    public static bool VerificarCor(string cor)
+    {
+        if (cor == "Verde")
+        {
+            return true;
+        }
+
+        else
+        {
+            return false;
+        }
+    }
+
+}
+
