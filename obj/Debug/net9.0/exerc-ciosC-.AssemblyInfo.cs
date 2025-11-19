@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("exerc-ciosC-")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+051fe2f1842ef4d9300b8633417797b4e96fa056")]
 [assembly: System.Reflection.AssemblyProductAttribute("exerc-ciosC-")]
 [assembly: System.Reflection.AssemblyTitleAttribute("exerc-ciosC-")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

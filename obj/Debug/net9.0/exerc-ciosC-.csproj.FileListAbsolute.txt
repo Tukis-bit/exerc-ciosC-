@@ -12,3 +12,4 @@ C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\obj\Debug\net9.0\ref
 C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\obj\Debug\net9.0\exerc-ciosC-.pdb
 C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\obj\Debug\net9.0\exerc-ciosC-.genruntimeconfig.cache
 C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\obj\Debug\net9.0\ref\exerc-ciosC-.dll
+C:\Users\Arthur\OneDrive\Documentos\c#\Ado0304\exerc-ciosC-\obj\Debug\net9.0\exerc-ciosC-.sourcelink.json

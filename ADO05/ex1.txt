@@ -1,0 +1,65 @@
+
+namespace exerc_ciosC_;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("===========================");
+        Console.WriteLine("==PROGRAMA DOS TRIANGULOS==");
+        Console.WriteLine("===========================");
+        Console.WriteLine();
+
+List<int> lados = PedirLados();
+
+string tipo = DescobrirTipo(lados);
+
+Console.WriteLine($"O seu triangulo é {tipo}");
+        
+
+    }
+
+    public static List<int> PedirLados()
+    {
+        
+        List<int> lados = new List<int>();
+
+        
+        for(int i = 1; i <=3; i++)
+        {
+        Console.Write($"Me informe o lado {i}: ");
+        lados.Add(Convert.ToInt32(Console.ReadLine()));
+        Console.WriteLine();
+
+        }
+        return lados;
+        
+
+    } 
+
+    public static string DescobrirTipo(List<int> lados)
+    {
+      
+       int l1 = lados[0];
+       int l2 = lados[1];
+       int l3 = lados[2];
+
+        if(l1 == l2 && l1 == l3)
+        {
+            return "Equilatero";
+        }
+        else if(l1 == l2 || l2 == l3 || l1 == l3)
+        {
+            return "Isóceles";
+        }
+        else
+        {
+            return "Escaleno";
+
+        }
+    } 
+
+    
+
+
+}
